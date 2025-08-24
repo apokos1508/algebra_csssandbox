@@ -1,10 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
+html {    font-size: 16px
+}
+
 body{
-    background-color: #FAF9EE;
+   /* background-color: #FAF9EE;*/
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+    background-attachment: scroll;
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
 
+h1, h2, h3, h4 {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2rem;
+    
+}
+.heading {
+ font-weight: 800;
+ font-style: normal;
+  font-variant: small-caps; /* sva slova štampana ali velika koda su pisana */
+    font-size: 4rem;
+    word-spacing: 10px;
+    letter-spacing: 8px;
+    text-shadow: 4px 4px 6px hsl(194, 40%, 37%), 
+                 10px 10px 12px hsl(19, 80%, 43%), 
+                 14px 14px 2px #D6DAC8;
+    text-align: center;
+    line-height: 50%;
+}
+
+.duga{
+     font-weight: 800;
+     font-style: normal;
+     font-variant: small-caps; /* sva slova štampana ali velika koda su pisana */
+     font-size: 4rem;
+     word-spacing: 10px;
+     letter-spacing: 8px;
+     text-shadow: 2px 2px 2px #ef3550, 
+                  3px 3px 2px #f48fb1,
+                  4px 4px 2px #7e57c2,
+                  5px 5px 2px #2196f3,
+                  6px 6px 2px #26c6da,
+                  7px 7px 2px #43a047,
+                  8px 8px 2px #eeff41,
+                  9px 9px 2px #f9a825,
+                  10px 10px 2px #ff5722;
+     text-align: center;
+     line-height: 50%;
+     color:#FAF9EE;
+     display: block; 
+     background-color: #D6DAC8;
+     padding: 22px 22px;
+}
+.wrapper {
+    width: 50%;
+    max-width:800px;
+    height:auto;
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
 }
